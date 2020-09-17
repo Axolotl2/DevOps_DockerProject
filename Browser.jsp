@@ -1,4 +1,4 @@
-<%-- 
+<%--
 	jsp File browser 1.1a
 	Copyright (C) 2003,2004, Boris von Loesch
 	This program is free software; you can redistribute it and/or modify it under
@@ -1788,7 +1788,7 @@ Upload finished.
 		<input type="hidden" name="dir" value="<%=request.getAttribute("dir")%>">
 		<input type="hidden" name="sort" value="<%=sortMode%>">
 		<input type="hidden" name="command" value="">
-		<input title="Launch command in current directory" type="Submit" class="button" name="Submit" value="Launch command!">
+		<input title="Launch command in current directory" type="Submit" class="button" name="Submit" value="Launch command">
 	</form><%
     }
     }%>
